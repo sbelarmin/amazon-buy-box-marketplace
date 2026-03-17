@@ -71,6 +71,7 @@ src/data_generation/data/synthetic/*.csv
 # ----------------------------
 reports/figures/*
 reports/tables/*
+docs/*.pdf
 
 !reports/figures/.gitkeep
 !reports/tables/.gitkeep
