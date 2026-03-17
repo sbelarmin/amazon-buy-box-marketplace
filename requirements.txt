@@ -1,0 +1,20 @@
+# Core numerical computing
+numpy==1.26.4
+pandas==2.2.2
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Modeling
+scikit-learn==1.4.2
+
+# Statistical modeling
+statsmodels==0.14.2
+
+# Notebook environment
+jupyter==1.0.0
+ipykernel==6.29.4
+
+# Utility
+tqdm==4.66.4

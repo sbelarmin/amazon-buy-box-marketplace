@@ -1,0 +1,82 @@
+# ----------------------------
+# Python cache files
+# ----------------------------
+pycache/
+.py[cod]
+$py.class
+
+# ----------------------------
+# Virtual environments
+# ----------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# ----------------------------
+# Jupyter Notebook checkpoints
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# Mac OS system files
+# ----------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ----------------------------
+# VS Code settings
+# ----------------------------
+.vscode/
+
+# ----------------------------
+# Python build artifacts
+# ----------------------------
+build/
+dist/
+.egg-info/
+.eggs/
+
+# ----------------------------
+# Logs
+# ----------------------------
+.log
+
+# ----------------------------
+# Environment variables
+# ----------------------------
+.env
+.env.
+
+# ----------------------------
+# Data files (keep repo lightweight)
+# ----------------------------
+data/raw/
+data/interim/
+data/processed/
+data/synthetic/*
+src/data_generation/data/synthetic/*.csv
+
+
+
+# Allow placeholder files so folders exist
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/synthetic/.gitkeep
+
+# ----------------------------
+# Large reports or outputs
+# ----------------------------
+reports/figures/*
+reports/tables/*
+
+!reports/figures/.gitkeep
+!reports/tables/.gitkeep
+
+# ----------------------------
+# Misc
+# ----------------------------
+*.sqlite
+*.db
