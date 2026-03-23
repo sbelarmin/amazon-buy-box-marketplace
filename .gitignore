@@ -69,9 +69,9 @@ src/data_generation/data/synthetic/*.csv
 # ----------------------------
 # Large reports or outputs
 # ----------------------------
-reports/figures/*
 reports/tables/*
 docs/*.pdf
+docs/
 
 !reports/figures/.gitkeep
 !reports/tables/.gitkeep
